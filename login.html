@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+    <html lang="ar">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/all.min.css">
+            <link rel="stylesheet" href="css/style.css">
+            <title>login</title>
+        </head>
+        <body>
+            <header class="site-header">
+                <div class="main-header">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-md">
+                            <div id="block-ktobati-branding" class="brand d-flex align-items-center justify-content-between">
+                                <a href="index.html" data-once="nprogress-nav">
+                                    <img src="imgs/logo.svg" alt="Home" typeof="foaf:Image">
+                                </a>
+                            </div>
+                            <ul class="nav nav-search">
+                                <li class="nav-item">
+                                    <a href="add-book.html" title="انشر كتابك" data-once="nprogress-nav">
+                                        <span class="icon"><i class="fa-solid fa-book"></i></span>
+                                        <span class="text d-none d-md-inline-block">انشر كتابك</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" title="ابحث عن كتاب" data-toggle="modal" data-target="#block-searchktobati-header">
+                                        <span class="icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                        <span class="text d-none d-md-inline-block"> ابحث عن كتاب </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="nav mr-auto align-items-center login-nav">
+                                <li class="nav-item">
+                                    <a href="#" class="btn btn-icon btn-1" data-once="nprogress-nav">الدخول</a>
+                                </li>
+                                <li class="nav-item">
+                                <a href="#" class="btn btn-icon btn-2" data-once="nprogress-nav">دعم المكتبة 🤍</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn-menu-nav d-block" href="#" aria-label="Navigation item">
+                                        <span class="icon"><i class="fa-solid fa-list"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="left-menu" id="leftMenu">
+                        <div class="left-menu-header ">
+                            <button type="button" class="btn btn-close-menu" aria-label="Close menu"></button> 
+                        </div>
+                        <div class="left-menu-body">
+                            <div id="block-topmenu">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="#" data-drupal-link-system-path="node/2" data-once="nprogress-nav">حقوق الملكية</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" data-drupal-link-system-path="node/23195" data-once="nprogress-nav">سياسة الخصوصية
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="login.html" data-drupal-link-system-path="add/book" data-once="nprogress-nav">أنشر كتبك</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" data-drupal-link-system-path="node/1" data-once="nprogress-nav">اتصل بنا</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><hr>
+                <div class="section-header">
+                    <div class="container-site">
+                        <nav class="navbar-expand-md">
+                            <ul class="nav nav-fill nav-icon align-items-center justify-content-center">
+                                <li class="nav-item">
+                                    <a href="index.html" class="active" data-once="nprogress-nav">
+                                        <span class="icon"><i class="fa-solid fa-house"></i></span>
+                                        <p> الرئيسية</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="top.html" class="" data-once="nprogress-nav">
+                                        <span class="icon"><i class="fa-solid fa-award"></i></span>
+                                        <p>الأشهر</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="sections.html" class="" data-once="nprogress-nav">
+                                        <span class="icon"><i class="fa-solid fa-table-cells-large"></i></span>
+                                        <p> الأقسام</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="authors.html" class="" data-once="nprogress-nav">
+                                        <span class="icon"><i class="fa-solid fa-users"></i></span>
+                                        <p>المؤلفين</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!--  -->
+            <div class="content-top">
+               <div class="site-content">
+                    <div class="login-page align-items-center justify-content-center">
+                        <div class="container-site">
+                            <div class="login-form px-0">
+                                <h1 class="title">تسجيل الدخول</h1>
+                                <div class="login-options">
+                                    <div class="text-center mb-2">
+                                        <a class="btn btn-1 social-auth auth-link auth-google" href="#" data-once="loginLinkHandler nprogress-nav">
+                                            دخول عبر   Google
+                                        </a>
+                                    </div>
+                                    <div class="text-center mb-3">
+                                        <button class="btn btn-collapse-login" type="button" data-toggle="collapse" data-target="#loginForm" aria-expanded="false" aria-controls="loginForm">
+                                             دخول عبر الإيميل
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="loginForm">
+                                        <div class="card card-login">
+                                            <div class="card-body">
+                                                <div>
+                                                    <div data-drupal-messages-fallback="" class="hidden"></div>
+                                                    <div class="search-box-form header-search modal" data-drupal-selector="search-box-form" id="block-searchktobati-header" tabindex="-1" role="dialog" aria-hidden="hide">
+                                                        <div class="modal-dialog" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <form action="#" method="post" id="search-box-form" accept-charset="UTF-8">
+                                                                <div class="hidden">
+                                                                    <input autocomplete="off" data-drupal-selector="form-xtklywwpldpksqsvpueexd-qvprijuwyo1nh6r0bt8w" type="hidden" name="form_build_id" value="form-XtkLYwWPlDPkSqsvPuEExD-qvPRiJUwYO1nh6r0bt8w">
+
+                                                                    <input data-drupal-selector="edit-search-box-form" type="hidden" name="form_id" value="search_box_form">    
+                                                                </div>
+                                                                <div class="search-box-form">
+                                                                    <div class="js-form-item form-item js-form-type-textfield form-item-query js-form-item-query form-no-label">
+                                                                        <input placeholder="ابحث عن كتاب أو مؤلف أو قسم كتاب" class="form-control search-input form-autocomplete form-text required ui-autocomplete-input" required="required" data-required-message="يرجى إدخال كلمة للبحث" data-drupal-selector="edit-query" data-autocomplete-path="/autocomplete/book" type="text" id="edit-query" name="query" value="" size="60" maxlength="128" aria-required="true" data-once="autocomplete ktobatiSearchAutocomplete" autocomplete="off">
+
+                                                                    </div>
+
+                                                                    <input class="btn btn-1 btn-submit button js-form-submit form-submit" data-drupal-selector="edit-sa" type="submit" id="edit-sa" name="op" value="بحث">
+
+                                                                    <span class="icon"></span>
+                                                                </div>
+                                                                <input type="hidden" name="destination" value="/author/all">
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="block-ktobati-content">
+                                                        <form class="user-login-form" data-drupal-selector="user-login-form" autocomplete="off" action="#" method="post" id="user-login-form" accept-charset="UTF-8" novalidate="novalidate">
+                                                            <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name form-no-label">
+                                                                <input autocorrect="none" autocapitalize="none" spellcheck="false" autofocus="autofocus" autocomplete="username" class="form-control form-login form-text required" placeholder="البريد الإلكتروني" data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" required="required" aria-required="true">
+                                                            </div>
+                                                            <div class="js-form-item form-item js-form-type-password form-item-pass js-form-item-pass form-no-label">
+                                                                <input autocomplete="off" class="form-control form-login form-text required" placeholder="كلمة المرور" data-drupal-selector="edit-pass" type="password" id="edit-pass" name="pass" size="60" maxlength="128" required="required" aria-required="true">
+                                                            </div>
+                                                            <input autocomplete="off" data-drupal-selector="form-vrsz1snfa-vmmgg76yqotefkfjaiaqk-nu-gzbhcnke" type="hidden" name="form_build_id" value="form-vRSZ1Snfa-Vmmgg76yQoTEFkFjaiaQK_nu-gzbhCNKE">
+                                                            <input data-drupal-selector="edit-user-login-form" type="hidden" name="form_id" value="user_login_form">
+                                                        <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+                                                            <input class="btn btn-login btn-block btn-1 button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="تسجيل الدخول">
+                                                        </div>
+                                                        <input type="hidden" name="destination" value="/author/all">
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="text-center link-login">
+                                        <a href="#" class="reset-password" data-once="loginLinkHandler nprogress-nav">نسيت كلمة المرور ؟</a>
+                                    </p>
+                                    <p class="text-center mt-3">
+                                        <a href="register.html" class="btn btn-3" data-once="loginLinkHandler nprogress-nav">إنشاء حساب جديد</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="site-footer">
+                    </footer>
+                </div>
+            </div>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/all.min.js"></script>     
+        </body>
+    </html>
